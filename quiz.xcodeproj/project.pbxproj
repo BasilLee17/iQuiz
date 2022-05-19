@@ -14,6 +14,10 @@
 		CA7896CB282F613900A82FC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA7896CA282F613900A82FC8 /* Assets.xcassets */; };
 		CA7896CE282F613900A82FC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA7896CC282F613900A82FC8 /* LaunchScreen.storyboard */; };
 		CA7896D6282F6A7100A82FC8 /* SubjectTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7896D5282F6A7100A82FC8 /* SubjectTableViewCell.swift */; };
+		CADD99B32835778300DE915C /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADD99B22835778200DE915C /* QuestionViewController.swift */; };
+		CADD99B72836387E00DE915C /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADD99B62836387E00DE915C /* Question.swift */; };
+		CADD99B92836430700DE915C /* AnswerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADD99B82836430700DE915C /* AnswerViewController.swift */; };
+		CADD99BB2836490200DE915C /* FinishedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CADD99BA2836490200DE915C /* FinishedViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +30,10 @@
 		CA7896CD282F613900A82FC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA7896CF282F613900A82FC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA7896D5282F6A7100A82FC8 /* SubjectTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubjectTableViewCell.swift; sourceTree = "<group>"; };
+		CADD99B22835778200DE915C /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		CADD99B62836387E00DE915C /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		CADD99B82836430700DE915C /* AnswerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerViewController.swift; sourceTree = "<group>"; };
+		CADD99BA2836490200DE915C /* FinishedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishedViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +74,10 @@
 				CA7896CC282F613900A82FC8 /* LaunchScreen.storyboard */,
 				CA7896CF282F613900A82FC8 /* Info.plist */,
 				CA7896D5282F6A7100A82FC8 /* SubjectTableViewCell.swift */,
+				CADD99B22835778200DE915C /* QuestionViewController.swift */,
+				CADD99B62836387E00DE915C /* Question.swift */,
+				CADD99B82836430700DE915C /* AnswerViewController.swift */,
+				CADD99BA2836490200DE915C /* FinishedViewController.swift */,
 			);
 			path = quiz;
 			sourceTree = "<group>";
@@ -141,8 +153,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CADD99BB2836490200DE915C /* FinishedViewController.swift in Sources */,
 				CA7896D6282F6A7100A82FC8 /* SubjectTableViewCell.swift in Sources */,
+				CADD99B92836430700DE915C /* AnswerViewController.swift in Sources */,
+				CADD99B32835778300DE915C /* QuestionViewController.swift in Sources */,
 				CA7896C6282F613700A82FC8 /* ViewController.swift in Sources */,
+				CADD99B72836387E00DE915C /* Question.swift in Sources */,
 				CA7896C2282F613700A82FC8 /* AppDelegate.swift in Sources */,
 				CA7896C4282F613700A82FC8 /* SceneDelegate.swift in Sources */,
 			);
